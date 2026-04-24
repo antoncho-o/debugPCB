@@ -1114,17 +1114,17 @@
     "top_level_sheets": [
       {
         "filename": "nautilus-backplane.kicad_sch",
-        "name": "nautilus-backplane",
+        "name": "nautilus-debug",
         "uuid": "e08d3e09-d805-4650-baae-a4ad395cf0c7"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR9-12,J2-5",
     "variants": []
   },
   "sheets": [
     [
       "e08d3e09-d805-4650-baae-a4ad395cf0c7",
-      "nautilus-backplane"
+      "nautilus-debug"
     ],
     [
       "bbabd8b3-51a1-4d2f-a3d3-7ba1b92cf59a",

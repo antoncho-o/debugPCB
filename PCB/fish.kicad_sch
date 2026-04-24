@@ -1917,12 +1917,6 @@
 		(uuid "3b52a9c6-8e3b-4122-834e-a88654e010c2")
 	)
 	(junction
-		(at 66.04 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c7500aa-8e81-481b-bbad-d1d0311db1ac")
-	)
-	(junction
 		(at 123.19 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1975,24 +1969,6 @@
 			(type default)
 		)
 		(uuid "7fa8d747-bf4c-458e-9dca-ae517f408d11")
-	)
-	(bus_entry
-		(at 91.44 97.79)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e04ee6da-912c-4dcb-b2f3-32a7f3232cff")
-	)
-	(bus_entry
-		(at 91.44 95.25)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f18a544c-68f3-4326-ac08-34af1564689e")
 	)
 	(wire
 		(pts
@@ -2094,16 +2070,6 @@
 		)
 		(uuid "361aa98e-c803-4973-ac60-afae0bea5f04")
 	)
-	(bus
-		(pts
-			(xy 91.44 95.25) (xy 92.71 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36d9fd10-0823-45d1-a281-389b9c28e002")
-	)
 	(wire
 		(pts
 			(xy 158.75 113.03) (xy 161.29 113.03)
@@ -2156,16 +2122,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 100.33) (xy 88.9 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ca4123b-3731-44c6-855e-ffd226df747b")
-	)
-	(wire
-		(pts
 			(xy 148.59 97.79) (xy 158.75 97.79)
 		)
 		(stroke
@@ -2173,16 +2129,6 @@
 			(type default)
 		)
 		(uuid "57b5f10a-4ec6-4f24-84ad-01f2da36c303")
-	)
-	(bus
-		(pts
-			(xy 91.44 97.79) (xy 91.44 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59748f8f-cb74-4dae-9fdc-26bb72717345")
 	)
 	(wire
 		(pts
@@ -2193,16 +2139,6 @@
 			(type default)
 		)
 		(uuid "6194ef18-e7d7-4ee7-882b-780f43a3c4c6")
-	)
-	(wire
-		(pts
-			(xy 66.04 102.87) (xy 66.04 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76293704-2d69-4bb4-a359-72dd57023678")
 	)
 	(wire
 		(pts
@@ -2223,26 +2159,6 @@
 			(type default)
 		)
 		(uuid "780fed76-fc1b-4ae2-8141-725cecae730e")
-	)
-	(wire
-		(pts
-			(xy 66.04 101.6) (xy 66.04 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c0cbdf4-b69b-414e-9a8f-c8d25b54e44e")
-	)
-	(wire
-		(pts
-			(xy 81.28 92.71) (xy 86.36 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86d47224-53d9-42a3-a969-d091672c69e0")
 	)
 	(wire
 		(pts
@@ -2286,26 +2202,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 91.44) (xy 86.36 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a56efdd6-d945-4dc0-a454-1b5934f2d8c7")
-	)
-	(wire
-		(pts
-			(xy 54.61 95.25) (xy 66.04 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baaf4803-3a10-428c-95cf-4f5e8730b9d1")
-	)
-	(wire
-		(pts
 			(xy 121.92 95.25) (xy 121.92 96.52)
 		)
 		(stroke
@@ -2333,26 +2229,6 @@
 			(type default)
 		)
 		(uuid "dd4b2512-edbe-4d4f-8a81-ff608dce39d6")
-	)
-	(wire
-		(pts
-			(xy 54.61 95.25) (xy 54.61 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea918e6a-ef98-4572-a8d6-4bd374852ee2")
-	)
-	(wire
-		(pts
-			(xy 62.23 101.6) (xy 66.04 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb600166-53a6-41ff-a74b-766fab7250a0")
 	)
 	(wire
 		(pts
@@ -2384,16 +2260,6 @@
 		)
 		(uuid "f1bbc2cc-3f05-4470-a837-95bf7a9f241b")
 	)
-	(wire
-		(pts
-			(xy 81.28 97.79) (xy 88.9 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f23301af-6f4f-46a4-b4f5-db2ac9d9daba")
-	)
 	(bus
 		(pts
 			(xy 201.93 97.79) (xy 201.93 95.25)
@@ -2423,26 +2289,6 @@
 			(justify left bottom)
 		)
 		(uuid "3c4f9ac3-137c-4339-ab53-2bbb3078ea5a")
-	)
-	(label "CAN.L"
-		(at 81.28 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3da96256-d1f5-4b97-9b29-02487d0bf6f7")
-	)
-	(label "CAN.H"
-		(at 81.28 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4571b0e0-6879-41d0-a26f-0b08c807655c")
 	)
 	(label "CAN.H"
 		(at 191.77 97.79 0)
@@ -2484,173 +2330,6 @@
 			(justify left)
 		)
 		(uuid "1e7a6fe7-faa9-4493-be36-3a3670a76e29")
-	)
-	(hierarchical_label "CAN{H,L}"
-		(shape bidirectional)
-		(at 92.71 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c26d252a-c72c-44b3-9840-4126dca0e727")
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 62.23 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08796919-b820-4210-98d4-3c128b783c4e")
-		(property "Reference" "#FLG04"
-			(at 62.23 99.695 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 62.23 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 62.23 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f084d0b0-47d4-4626-8f0f-e89b556c7865")
-		)
-		(instances
-			(project "nautilus-backplane"
-				(path "/e08d3e09-d805-4650-baae-a4ad395cf0c7/5b332e89-45c9-4fb0-9b39-26c77675ec3e"
-					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 86.36 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "319eec12-9df1-4d67-94c2-fa76cfff6081")
-		(property "Reference" "#PWR015"
-			(at 86.36 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 86.36 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 86.36 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "adc2135e-0548-4166-aa3a-6c4a618070fd")
-		)
-		(instances
-			(project "nautilus-backplane"
-				(path "/e08d3e09-d805-4650-baae-a4ad395cf0c7/5b332e89-45c9-4fb0-9b39-26c77675ec3e"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "#dzdb:s_con/CON-WURT-643280100305")
@@ -2853,84 +2532,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 66.04 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42160c73-8531-4b3a-bfdf-868341875ce2")
-		(property "Reference" "#PWR01"
-			(at 66.04 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.04 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7a66b029-bd56-4151-8b8d-fa24ad05f5a9")
-		)
-		(instances
-			(project "nautilus-backplane"
-				(path "/e08d3e09-d805-4650-baae-a4ad395cf0c7/5b332e89-45c9-4fb0-9b39-26c77675ec3e"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 123.19 129.54 0)
 		(unit 1)
@@ -3003,84 +2604,6 @@
 			(project "nautilus-backplane"
 				(path "/e08d3e09-d805-4650-baae-a4ad395cf0c7/5b332e89-45c9-4fb0-9b39-26c77675ec3e"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 54.61 96.52 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "68f76642-593d-437f-8a39-4bcf70d4c000")
-		(property "Reference" "#PWR014"
-			(at 54.61 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 54.61 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9e192daf-7f0e-4237-8871-37ccd0b00954")
-		)
-		(instances
-			(project "nautilus-backplane"
-				(path "/e08d3e09-d805-4650-baae-a4ad395cf0c7/5b332e89-45c9-4fb0-9b39-26c77675ec3e"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3690,206 +3213,6 @@
 			(project "nautilus-backplane"
 				(path "/e08d3e09-d805-4650-baae-a4ad395cf0c7/5b332e89-45c9-4fb0-9b39-26c77675ec3e"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#dzdb:s_con/CON-WURT-643280100305")
-		(at 73.66 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d22336bf-0a58-449e-b205-e61a7a87f422")
-		(property "Reference" "J7"
-			(at 73.66 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "643280100305"
-			(at 73.6599 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "dz_con:Wuerth_WR_CIRCM_643280100305"
-			(at 73.66 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/643270100305.pdf"
-			(at 73.406 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "M12 Right-Angled Round Connector 5p"
-			(at 75.692 84.074 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" "CON-WURT-643280100305"
-			(at 73.66 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "643280100305"
-			(at 73.66 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 73.66 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Symbol" "dz_con:WURT-643280100305"
-			(at 73.66 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "Connector"
-			(at 73.66 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pin Count" "5"
-			(at 73.66 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 73.66 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SPN" "710-643280100308"
-			(at 73.66 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" "lifecycle=Active; orientation=Right Angle; note=M12 5-pin right-angled THT connector"
-			(at 73.66 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 73.66 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "b41e0949-aa55-4655-a22c-f01aa8d11e9f")
-		)
-		(pin "4"
-			(uuid "2b17d719-5d0d-48bd-ae19-3adf9ed9b4e6")
-		)
-		(pin "5"
-			(uuid "b320c4fc-f6e6-4c71-bc0a-59f9637951b1")
-		)
-		(pin "2"
-			(uuid "53bb1230-cb66-47da-a661-f106138aa5ac")
-		)
-		(pin "1"
-			(uuid "7846a1dc-ff2b-40b6-ae01-96b481f1473f")
-		)
-		(instances
-			(project "nautilus-backplane"
-				(path "/e08d3e09-d805-4650-baae-a4ad395cf0c7/5b332e89-45c9-4fb0-9b39-26c77675ec3e"
-					(reference "J7")
 					(unit 1)
 				)
 			)
