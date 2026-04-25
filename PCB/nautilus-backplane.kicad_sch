@@ -243,6 +243,60 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "24.245.2"
+				(at 1.27 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "dz_con:ANT-TH_L33.0-W12.0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C7437327.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Black Terminal Through Hole Banana"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "SPN" ""
 				(at 0 0 0)
 				(show_name no)
@@ -332,60 +386,6 @@
 				)
 			)
 			(property "Comment" "THIS PART IS SOURCED FROM LCSC NOT MOUSER;"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "24.245.2"
-				(at 1.27 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "dz_con:ANT-TH_L33.0-W12.0"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C7437327.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Black Terminal Through Hole Banana"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1951,6 +1951,12 @@
 		(uuid "e52eae6e-329c-4b41-b575-2f2d398495e5")
 	)
 	(junction
+		(at 203.2 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5ffa5d8-3b68-4c53-ad0b-41eed9eb52da")
+	)
+	(junction
 		(at 41.91 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1961,6 +1967,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1a50e67-3335-446e-8a29-2c0576996bbb")
+	)
+	(junction
+		(at 203.2 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc43a63b-d7f1-4f88-b982-0895eb6d027c")
 	)
 	(bus_entry
 		(at 140.97 129.54)
@@ -3499,16 +3511,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 161.29) (xy 218.44 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "351ec2cb-7059-420b-a688-a92e8cdb469c")
-	)
-	(wire
-		(pts
 			(xy 191.77 54.61) (xy 191.77 62.23)
 		)
 		(stroke
@@ -3816,6 +3818,16 @@
 			(type default)
 		)
 		(uuid "4ba3db11-ee3b-4767-8b01-6ab88778c9f8")
+	)
+	(wire
+		(pts
+			(xy 203.2 161.29) (xy 218.44 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc39a62-59f5-47d6-a157-b3dec3814aed")
 	)
 	(wire
 		(pts
@@ -4196,6 +4208,16 @@
 			(type default)
 		)
 		(uuid "6c7a93c9-e291-4fb4-9bfa-7e83cdde5c6a")
+	)
+	(wire
+		(pts
+			(xy 203.2 149.86) (xy 203.2 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6de49af5-4b68-40c3-9b8a-77364bf3050d")
 	)
 	(wire
 		(pts
@@ -4699,7 +4721,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 161.29) (xy 198.12 161.29)
+			(xy 191.77 161.29) (xy 203.2 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4989,6 +5011,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 157.48) (xy 203.2 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9435417-9a42-4068-9278-80e2d120f2cc")
+	)
+	(wire
+		(pts
 			(xy 213.36 66.04) (xy 232.41 66.04)
 		)
 		(stroke
@@ -5179,7 +5211,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 153.67) (xy 198.12 153.67)
+			(xy 191.77 153.67) (xy 203.2 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5869,6 +5901,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 153.67) (xy 218.44 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7832fff-d686-413f-951e-f49457458bbb")
+	)
+	(wire
+		(pts
 			(xy 44.45 177.8) (xy 44.45 176.53)
 		)
 		(stroke
@@ -6146,16 +6188,6 @@
 			(type default)
 		)
 		(uuid "fe871521-2164-4797-9dd1-d18c74f9c745")
-	)
-	(wire
-		(pts
-			(xy 208.28 153.67) (xy 218.44 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "febcd974-e944-4c8f-bf4a-9029ee3d5462")
 	)
 	(label "CAN.L"
 		(at 120.65 58.42 0)
@@ -12684,111 +12716,6 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Open")
-		(at 203.2 161.29 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "81ee0635-9294-450f-bc0c-ee24e40f187e")
-		(property "Reference" "JP49"
-			(at 207.264 162.814 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_3_Open"
-			(at 203.2 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 203.2 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 203.2 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
-			(at 203.2 143.51 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
-			(at 203.2 140.97 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "02e082cb-f98e-45fe-95d6-7e10a1146f05")
-		)
-		(pin "3"
-			(uuid "ea252d7a-4314-4ecb-aca4-4355764faa2d")
-		)
-		(pin "2"
-			(uuid "364fe300-ed7c-4429-a507-78f794b272f5")
-		)
-		(instances
-			(project "nautilus-backplane"
-				(path "/e08d3e09-d805-4650-baae-a4ad395cf0c7"
-					(reference "JP49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_3_Open")
 		(at 45.72 143.51 180)
 		(unit 1)
 		(body_style 1)
@@ -15651,111 +15578,6 @@
 			(project "nautilus-backplane"
 				(path "/e08d3e09-d805-4650-baae-a4ad395cf0c7"
 					(reference "TP26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_3_Open")
-		(at 203.2 153.67 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ca1af707-41ad-4b80-9c27-1a8e6be8fd05")
-		(property "Reference" "JP48"
-			(at 207.264 155.194 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_3_Open"
-			(at 203.2 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 203.2 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 203.2 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
-			(at 203.2 135.89 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
-			(at 203.2 133.35 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "836d37f2-7b99-45a8-b39f-1f4aa414ee89")
-		)
-		(pin "3"
-			(uuid "cf5d59f0-fdea-447f-81ae-f9c02eafe864")
-		)
-		(pin "2"
-			(uuid "1f9158b0-0a38-4d07-89d2-a55a0cfe8971")
-		)
-		(instances
-			(project "nautilus-backplane"
-				(path "/e08d3e09-d805-4650-baae-a4ad395cf0c7"
-					(reference "JP48")
 					(unit 1)
 				)
 			)
