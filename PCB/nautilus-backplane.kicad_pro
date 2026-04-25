@@ -140,6 +140,10 @@
         [
           "courtyards_overlap|208265000|85775000|0c071fba-8d9e-4fd6-98cd-0381e9179aaf|4b86dd51-ca7e-462b-83e6-ddd04bbfcb3c",
           ""
+        ],
+        [
+          "missing_courtyard|145600000|112600000|c9c5d0da-27b1-42ab-ade0-9c43034fbbe9|00000000-0000-0000-0000-000000000000",
+          ""
         ]
       ],
       "meta": {
